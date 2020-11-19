@@ -1,5 +1,11 @@
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  padding: 10px;
+}
+
+h1 {
+  margin: 20px;
+  margin-top: 0px;
+  padding: 20px;
+  padding-top: 0px;
 }

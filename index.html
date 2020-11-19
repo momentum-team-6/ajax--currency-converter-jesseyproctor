@@ -14,9 +14,8 @@
     <h1>Currency Converter</h1>
     <p>convert from</p>
     <div class="input-field">
-      <label for="select-currency">Choose a currency:</label>
-      <select name="base-currency" id="select-currency">
-        <option value="">--Please choose an option--</option>
+      <label for="select-base-currency">Choose a currency:</label>
+      <select name="base-currency" id="select-base-currency">
         <option value="">--Please choose an option--</option>
         <option value="EUR">EUR</option>
         <option value="CAD">CAD</option>
@@ -55,8 +54,8 @@
    </div>
     <p>to</p>
     <div class="input-field">
-      <label for="select-currency">Choose a currency:</label>
-      <select name="base-currency" id="select-currency">
+      <label for="select-target-currency">Choose a currency:</label>
+      <select name="target-currency" id="select-target-currency">
         <option value="">--Please choose an option--</option>
         <option value="EUR">EUR</option>
         <option value="CAD">CAD</option>
@@ -97,8 +96,7 @@
       <label for="currency-amount"></label>
       <input id="currency-amount" type="text">
     </div>
-    <div class="convert-currency">
-      <button id="submit-button" type="submit">Convert!</button>
-    </div>
+    <button id="convert-button" type="submit">Convert!</button>
+    
 </body>
 </html>
